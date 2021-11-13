@@ -1,0 +1,256 @@
+body{
+  margin: 0px;
+  padding: 0 auto;
+  background-image: url('../assets/img/Mesh\ Gradient.png');
+  background-size: cover;
+}
+a{
+  text-decoration:none;
+}
+/* a:hover{
+  text-decoration: none;
+} */
+/* Style the tab */
+.tab {
+  float: left;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 165vh;
+  background: linear-gradient(
+    130.49deg, rgb(255 255 255) 26.97%, rgb(73 248 248 / 25%) 100%);
+  filter: drop-shadow(4px 10px 40px rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(100px);
+}
+.dropdown-content a{
+  font-size: 18px;
+  padding: 14px 33px;
+}
+.none{
+  display: none;
+  transition-delay: 2s;
+}
+.tabco{
+  float: left;
+  padding: 0px 12px;
+  width: 100%;
+  border-left: none;
+  height: 300px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  line-height: 3;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-top: 14px;
+      margin-bottom: 10px;
+}
+button.dropbtn:hover {
+  border-bottom: 5px solid #008AC5;
+}
+/* Create an active/current "tab button" class */
+.tab button.active {
+  color:#008AC5;
+  ;
+}
+.t-04c4 a {
+  /* margin: 0
+px
+auto; */
+  margin-top: 39px;
+}
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 80%;
+  border-left: none;
+  height: 300px;
+}
+.logo img {
+  height: 31px;
+}
+/* logo section */
+.logo{
+  text-align: center;
+  padding: 40px 0px;
+}
+a#Exchange {
+  font-size: 24px;
+  display: inline-flex;
+}
+svg.svg-inline--fa.fa-caret-square-down.fa-w-14 {
+  margin: 9px 13px;
+}
+.t-04c4 {
+  padding: 24px 0px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+#Exchange {
+  padding: 10px 42px;
+  text-align: center;
+  color: #FFFFFF;
+  background: radial-gradient(92.09% 85.42% at 86.3% 87.5%, rgba(0, 0, 0, 0.23) 0%, rgba(0, 0, 0, 0) 86.18%), radial-gradient(65.28% 65.28% at 26.39% 20.83%, rgba(255, 255, 255, 0.413) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%), #008AC5;
+  box-shadow: 4px 8px 30px rgb(0 138 197 / 30%);
+  border-radius: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+/* Style the h6 content */
+.menu {
+  padding: 29px 0px;
+  /* width: 100%; */
+  float: left;
+}
+button.main-btn {
+
+  padding: 43px 0px 0px 0px;
+
+}
+#Main {
+  font-family: Chivo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-left: 25px;
+  margin-top: 24px;
+  color: #777777;
+}
+/* svg icon */
+svg {
+  margin-left: 17px;
+  margin-right: 15px;
+}
+/* NAVBAR SECTION */
+.dropbtn {
+  background: none;
+  color: #008AC5;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* .dropbtn:hover{
+  border-bottom: 3px solid #008AC5;
+  transition: .5s;
+} */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  margin-bottom: 23px;
+  min-width: 1238px;
+  position: absolute;
+  background-color: #f9f9f9;
+  /* min-width: 213px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a {
+  display: inline-flex;
+  padding: 10px 20px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: #008AC5;
+  border-bottom: 5px solid #008AC5;
+}
+.tabel-864fg {
+  padding: 100px 0px;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#George{
+  color: #777777;
+  font-family: Roboto;    
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+#nav_img{
+  margin-left: 10px;
+}
+.bg-light {
+  background: linear-gradient(109.88deg, #ffffffa2 0%, rgba(126, 240, 230, 0.166) 100%);
+filter: drop-shadow(4px 10px 40px rgba(0, 0, 0, 0.1));
+backdrop-filter: blur(100px);
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* TABLE section */
+.table_1 {
+  width: 82%;
+  background: white;
+  border-radius: 20px;
+  padding: 14px;
+  text-align: center;
+  margin-left: 22px;
+  background: linear-gradient(
+    130.49deg, rgb(255 255 255) 26.97%, rgb(73 248 248 / 25%) 100%);
+  filter: drop-shadow(4px 10px 40px rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(100px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.table_1 th{
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+}
+.table_1 td {
+  font-size: 11px;
+  text-align: center;
+}
+.table_1 h6{
+  color: #008AC5;
+}
+.table_2 {
+  width: 82%;
+  background: white;
+  border-radius: 20px;
+  padding: 14px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 22px;
+  background: linear-gradient(
+    130.49deg, rgb(255 255 255) 26.97%, rgb(73 248 248 / 25%) 100%);
+  filter: drop-shadow(4px 10px 40px rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(100px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.table_2 th{
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+}
+.table_2 td {
+  font-size: 11px;
+  text-align: center;
+}
+.table_2 h6{
+  color: #008AC5;
+}
